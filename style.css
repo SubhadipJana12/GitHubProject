@@ -1,0 +1,8 @@
+.two-lines {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; /* Standard property for the number of lines */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis; /* Optional: adds three dots at the end */
+}
